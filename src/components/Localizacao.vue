@@ -43,6 +43,7 @@
         border: none;
         margin: auto;
         margin-bottom: 1%;
+        cursor: pointer;
         
     }
     .mapa {

@@ -24,7 +24,13 @@
             </div>
 
             <div class="conteudo">
-                <h3>Segue a gente no insta também</h3>
+                <h3>Produtos da Loja</h3>
+                <br>
+                <a class="botao" href="http://ctubt.kyte.site/" target="_blank" rel="noopener">Nossos Produtos</a>
+            </div>
+
+            <div class="conteudo">
+                <h3>Nosso instagram</h3>
                 <br>
                 <a class="botao" href="https://www.instagram.com/ctubt/" target="_blank" rel="noopener">@ctubt</a>
             </div>
@@ -61,10 +67,14 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
     h1 {
         background: rgb(255, 187, 0); 
         padding: 5px;
         color: black;  
+        text-shadow: 1px 1px 1px linen;
+        font-family: 'Noto Sans', sans-serif;
     }
 
     h3 {
@@ -101,6 +111,7 @@
     .container {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         
     }
 
