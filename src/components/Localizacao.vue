@@ -37,8 +37,9 @@
     .botaoSub {
         background: rgb(255, 187, 0);
         padding: 8px;
-        color: rgb(255, 255, 255);
-        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+        font-family: monospace;
+        font-weight: bolder;
         border-radius: 5px;
         border: none;
         margin: auto;
