@@ -4,13 +4,15 @@
 
         <div class="container">
             <div class="conteudo">
-                <h3>Modalidades e Horários</h3>
+                <h3>Modalidades e Horários</h3>               
                 <br>
-                <button class="botao" @click="mostrarQuadro">Turmas e Horários</button>
-                <iframe v-show="mostrar_quadro" src="https://drive.google.com/file/d/1PWkYZ4i3anUz7ZhV3Z9ZWvKhwWL9FFo6/preview"  width="240" height="480" allow="autoplay"></iframe>
-                
+                <button class="botao" @click="mostrarQuadro">Turmas e Horários</button> 
             </div>
 
+            <div v-show="mostrar_quadro" class="conteudo">
+               <iframe  src="https://drive.google.com/file/d/1PWkYZ4i3anUz7ZhV3Z9ZWvKhwWL9FFo6/preview"    width="240" height="480" allow="autoplay"></iframe> 
+            </div>
+            
             <div class="conteudo">
                 <h3>Conheça nossos planos</h3>
                 <br>
@@ -96,12 +98,16 @@
         font-size: 15px;
         
     }
+    
+    button {
+        font-family: monospace;
+        font-weight: bolder;
+    }
 
     .botao {
         background: rgb(255, 187, 0);
         padding: 8px;
-        color: rgb(255, 255, 255);
-        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
         border-radius: 5px;
         border: none;
         margin-bottom: 3%;
@@ -128,6 +134,10 @@
     @media only screen and (max-width: 600px) {
         .container {
             flex-direction: column;
+        }
+
+        iframe {
+            width: 240px;
         }
     }
 </style>
