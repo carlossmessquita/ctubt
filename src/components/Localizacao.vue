@@ -60,4 +60,10 @@
         margin-top: 1%;
         margin-bottom: 2%;
     }
+
+    @media only screen and (max-width: 600px) {
+        iframe {
+            width: 95%;
+        }
+    }
 </style>
