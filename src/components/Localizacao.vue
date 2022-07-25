@@ -36,7 +36,7 @@
 
     .botaoSub {
         background: rgb(255, 187, 0);
-        padding: 8px;
+        padding: 6px;
         color: rgb(0, 0, 0);
         font-family: monospace;
         font-weight: bolder;
