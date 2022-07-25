@@ -10,7 +10,7 @@
             </div>
 
             <div v-show="mostrar_quadro" class="conteudo">
-               <iframe  src="https://drive.google.com/file/d/1LX-4ZCtv_Agv9ETJBLrD0qxPK_i4xEMP/view?usp=sharing"    width="240" height="480" allow="autoplay"></iframe> 
+               <iframe  src="https://drive.google.com/file/d/1LX-4ZCtv_Agv9ETJBLrD0qxPK_i4xEMP/view"    width="240" height="480" allow="autoplay"></iframe> 
             </div>
             
             <div class="conteudo">
